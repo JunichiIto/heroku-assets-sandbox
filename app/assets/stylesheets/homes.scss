@@ -6,3 +6,12 @@
     border: 1px solid #ccc;
   }
 }
+
+.my-image-assets {
+  background-image: image-url('/assets/bg.png');
+  display: inline-block;
+  padding: 50px;
+  img {
+    border: 1px solid #ccc;
+  }
+}
