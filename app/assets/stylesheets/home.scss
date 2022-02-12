@@ -1,0 +1,8 @@
+.my-image {
+  background-image: image-url('bg.png');
+  display: inline-block;
+  padding: 50px;
+  img {
+    border: 1px solid #ccc;
+  }
+}
