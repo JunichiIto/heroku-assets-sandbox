@@ -11,6 +11,9 @@
   </head>
 
   <body>
+    <p>
+      config.assets.compile = <%=  HerokuAssetsSandbox::Application.config.assets.compile %>
+    </p>
     <%= render 'layouts/menu' %>
     <%= yield %>
     <div class="note">
