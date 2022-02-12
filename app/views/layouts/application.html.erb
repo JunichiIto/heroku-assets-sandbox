@@ -17,7 +17,9 @@
       precompiled at local? = <%= Rails.root.join("public/assets/precompiled-at-local.txt").exist? %>
     </p>
     <%= render 'layouts/menu' %>
-    <%= yield %>
+    <div class="main">
+      <%= yield %>
+    </div>
     <div class="note">
       Images taken from <%= link_to 'here', 'https://www.instagram.com/p/CZQMg3Xv6WE/' %>
       and
