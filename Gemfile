@@ -71,4 +71,5 @@ group :test do
   gem "webdrivers"
 end
 
+gem "http_accept_language"
 gem "pg"

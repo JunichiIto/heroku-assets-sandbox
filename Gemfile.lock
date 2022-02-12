@@ -92,6 +92,7 @@ GEM
     ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
+    http_accept_language (2.1.1)
     i18n (1.9.1)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.0.2)
@@ -230,6 +231,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  http_accept_language
   importmap-rails
   jbuilder
   pg
