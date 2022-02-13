@@ -4,4 +4,4 @@ en:
       root: 'valid'
       no_ext: 'no extension'
       use_jpeg: 'use jpeg as extension'
-      start_with_assets: 'asset url starts with "/assets"'
+      start_with_assets: 'asset path starts with "/assets"'
