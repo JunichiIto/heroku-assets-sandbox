@@ -4,4 +4,4 @@ ja:
       root: '正常'
       no_ext: '拡張子無し'
       use_jpeg: '拡張子がjpeg'
-      start_with_assets: '/assetsで始まる背景'
+      start_with_assets: '/assetsで始まるパス'
