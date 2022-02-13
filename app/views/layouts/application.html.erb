@@ -13,8 +13,6 @@
   <body>
     <p>
       config.assets.compile = <%=  HerokuAssetsSandbox::Application.config.assets.compile %>
-      <br>
-      precompiled at local? = <%= Rails.root.join("public/assets/precompiled-at-local.txt").exist? %>
     </p>
     <%= render 'layouts/menu' %>
     <div class="main">
